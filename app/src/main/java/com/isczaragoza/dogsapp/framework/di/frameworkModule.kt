@@ -5,7 +5,7 @@ import com.isczaragoza.dogsapp.data.database.DogDatabaseClient
 import com.isczaragoza.dogsapp.data.network.DogApiClient
 import com.isczaragoza.dogsapp.data.network.HttpClientProvider
 import com.isczaragoza.dogsapp.framework.databaseImpl.DogsAppRoomDatabase
-import com.isczaragoza.dogsapp.framework.databaseImpl.DogRoomDatabaseClient
+import com.isczaragoza.dogsapp.framework.databaseImpl.DogRoomDatabaseClientImpl
 import com.isczaragoza.dogsapp.framework.networkImpl.DogRetrofitApiClientImp
 import com.isczaragoza.dogsapp.framework.networkImpl.RetrofitClientProvider
 import com.isczaragoza.dogsapp.home.HomeScreenViewModel
@@ -35,7 +35,7 @@ val frameworkModule = module {
         ).fallbackToDestructiveMigration().build()
     }
     //Database Clients
-    factoryOf(::DogRoomDatabaseClient) { bind<DogDatabaseClient>() }
+    factoryOf(::DogRoomDatabaseClientImpl) { bind<DogDatabaseClient>() }
     //ViewModels
     viewModelOf(::HomeScreenViewModel)//DSL
     viewModel { ListOfDogsViewModel(get()) }
