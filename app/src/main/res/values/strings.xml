@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DogsApp</string>
+    <!-- Home Screen-->
+    <string name="home_screen_title">Dogs App</string>
+    <string name="home_screen_request">Request Puppy List</string>
+    <!-- List Of Dogs Screen-->
+    <string name="list_of_dogs_screen_top_app_bar">Dogs We Love</string>
+    <string name="list_of_dogs_screen_no_items">No Puppy List</string>
+    <!-- Card Dog Item -->
+    <string name="card_dog_item_age">Almost %1$d years</string>
+    <!-- Global Strings -->
+    <string name="error">Error</string>
+</resources>
