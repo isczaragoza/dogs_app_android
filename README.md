@@ -1,6 +1,8 @@
-//David Zaragoza García. 
-//Desarrollador Android
-//isczaragoza@gmail.com
+- David Zaragoza García
+- Desarrollador Android
+- isczaragoza@gmail.com
+
+/*Leer documento desde Android Studio*/
 
 Prueba Técnica de evalución en el proceso de selección para vacante Android en Konfio.
 
